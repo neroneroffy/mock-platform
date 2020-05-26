@@ -9,7 +9,7 @@ COPY package*.json ./usr/src/app
 RUN cd /usr/src/app
 RUN npm install
 
-COPY ./mock-server-site /usr/src/app
+COPY . /usr/src/app
 
 EXPOSE 8090
 
