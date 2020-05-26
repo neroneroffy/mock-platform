@@ -4,8 +4,7 @@ MAINTAINER Nero <neroht@qq.com>
 
 WORKDIR /usr/src/app
 
-COPY package*.json ./usr/src/app
-
+COPY package*.json /usr/src/app/package.json
 RUN cd /usr/src/app
 RUN npm install
 
